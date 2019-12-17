@@ -324,6 +324,9 @@
     <ClInclude Include="Reflective\ReflectiveLoader.h">
       <Filter>Reflective</Filter>
     </ClInclude>
+    <ClInclude Include="ch4_lib_utils.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QAngle.cpp">
@@ -406,6 +409,9 @@
     </ClCompile>
     <ClCompile Include="Reflective\ReflectiveLoader.c">
       <Filter>Reflective</Filter>
+    </ClCompile>
+    <ClCompile Include="ch4_lib_utils_detours.cpp">
+      <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
