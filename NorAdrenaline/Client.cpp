@@ -343,8 +343,8 @@ void HookClient()
 
 	HookUserMessages();
 
-	PreS_DynamicSound_s = (PreS_DynamicSound_t)DetourFunction((LPBYTE)g_Offsets.PreS_DynamicSound(), (LPBYTE)&PreS_DynamicSound);
-	CL_Move_s = (CL_Move_t)DetourFunction((LPBYTE)g_Offsets.CL_Move(), (LPBYTE)&CL_Move);
+	PreS_DynamicSound_s = (PreS_DynamicSound_t)CH4::Utils::DetourFunction((LPBYTE)g_Offsets.PreS_DynamicSound(), (LPBYTE)&PreS_DynamicSound);
+	CL_Move_s = (CL_Move_t)CH4::Utils::DetourFunction((LPBYTE)g_Offsets.CL_Move(), (LPBYTE)&CL_Move);
 
 	g_Offsets.EnablePageWrite((DWORD)g_pStudioModelRenderer, sizeof(StudioModelRenderer_t));
 	g_pStudioModelRenderer->StudioRenderModel = StudioRenderModel_Gate;

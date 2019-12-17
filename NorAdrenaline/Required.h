@@ -19,7 +19,8 @@
 #include "Structures.h"
 #include "Offsets.h"
 #include "Hook.h"
-#include "detours.h"
+//#include "detours.h"
+#include "ch4_lib_utils.h"
 #include "StudioModelRenderer.h"
 
 #define VIRTUALIZER_START \
